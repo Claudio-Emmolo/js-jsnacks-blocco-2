@@ -20,7 +20,9 @@ let media = 0;
 
 for (let i = 0 ; i < 10 ; i++){
     calc += numbers[i];
-    media = calc / 10;
 }
 
+media = calc / 10;
+
+console.log(calc);
 console.log(media);
