@@ -2,7 +2,12 @@
 
 let potenza = 2;
 
-for (let i = 0 ; i < 1000 ; i++){
-    potenza = parseInt(potenza * 2);
-    console.log(potenza);
+// for (let i = 0 ; i < 1000 ; i++){
+//     potenza = parseInt(potenza * 2);
+//     console.log(potenza);
+// }
+
+while (potenza < 1000){
+    potenza *= 2;
+    console.log(potenza)
 }
