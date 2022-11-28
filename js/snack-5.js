@@ -8,10 +8,14 @@
  const names = ['Michela', 'Giuseppina', 'Taylor','Donna', 'Marsha', 'Fabio', 'Roberto'];
  const lastnames = ['Cappelletti', 'Jager', 'Porcinelli' , 'Buffetti' , 'Forghieri', 'Papagni', 'Marazzini'];
 
- let list = [];
+ let listPrint = [];
+ 
 
  for (let i = 0 ; i < 20; i++){
-    list = names[Math.floor(Math.random() * 7)] + " " +(lastnames[Math.floor(Math.random() * 7)]);
-    console.log(list);
- }
+    const list = names[Math.floor(Math.random() * 7)] + " " +(lastnames[Math.floor(Math.random() * 7)]);
+    listPrint.push(list);
+}
+
+console.log(listPrint);
+
 
