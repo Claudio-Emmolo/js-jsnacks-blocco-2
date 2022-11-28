@@ -11,7 +11,7 @@
  let list = [];
 
  for (let i = 0 ; i < 20; i++){
-    list = names[Math.floor(Math.random() * 7)].concat( lastnames[Math.floor(Math.random() * 7)]);
+    list = names[Math.floor(Math.random() * 20)].concat( lastnames[Math.floor(Math.random() * 20)]);
     console.log(list);
  }
 
