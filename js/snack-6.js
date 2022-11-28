@@ -8,10 +8,10 @@ let calc = 0;
 
 
 for (let i = 0 ; i < numberList.length ; i++){
-    if (numberList[i] % 2 == 1){
+    if ( i % 2 === 1){
         calc = calc + numberList[i];
     }
 }
 
-console.log(calc)
+console.log(calc);
 
