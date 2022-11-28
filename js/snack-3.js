@@ -24,6 +24,7 @@ let maxValue = numbers[0];
 for (let i = 0 ; i < 10 ; i++){
     calc += numbers[i];
 
+    //Valore massimo
     if (maxValue < numbers[i]){
         maxValue = numbers[i];
     }
